@@ -19,5 +19,9 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+private slots:
+    void Button1_clicked();
+    void GoToCoffeeWindow();
 };
 #endif // MAINWINDOW_H
