@@ -4,6 +4,9 @@
 //#include <string>  //!!klasa string jest czescia podprzestrzeni std
 //using namespace std;
 
+#include <QFile> //QSTringList
+#include <QMessageBox>
+
 struct Coffee
 {
     //std::string name;
@@ -19,3 +22,15 @@ Coffee ConPanna = { 0, 0, 0.7, 0, 0.3, 0, 0, 0 };
 Coffee IrishCoffe = { 0, 0, 0.4, 0.3, 0.3, 0, 0, 0 };
 
 Coffee tabOfCoffies[6] = { Espresso, Cappucino, Mocha, Americano, ConPanna, IrishCoffe };
+QStringList coffeeList2 = { "Espresso", "Cappucino", "Mocha", "Americano", "ConPanna", "IrishCoffe" };
+
+
+void showRatios (Coffee coff)
+{
+    QMessageBox msgBox;
+    //msgBox.setText("This cannot be add to your list");
+    msgBox.setText("steamedMilk :  milkFoam  :   cream    :   whiskey  :  espresso  :    water   :  chocolate \n");
+    //??co dodac
+    msgBox.setWindowTitle("Coffies Ratios");
+    msgBox.exec();
+}
