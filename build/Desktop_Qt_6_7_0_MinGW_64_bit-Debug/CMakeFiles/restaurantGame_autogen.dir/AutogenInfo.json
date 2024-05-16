@@ -1,17 +1,17 @@
 {
-	"BUILD_DIR" : "C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen",
-	"CMAKE_BINARY_DIR" : "C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Katarzyna/Desktop/restaurantGame",
+	"BUILD_DIR" : "C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/Katarzyna/Documents/GitHub/restaurantGame",
 	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"C:/Users/Katarzyna/Desktop/restaurantGame/CMakeLists.txt",
-		"C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
-		"C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake",
+		"C:/Users/Katarzyna/Documents/GitHub/restaurantGame/CMakeLists.txt",
+		"C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake",
-		"C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
+		"C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake",
@@ -24,7 +24,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake",
-		"C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeRCCompiler.cmake",
+		"C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeRCInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
@@ -289,27 +289,27 @@
 		"C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake"
 	],
-	"CMAKE_SOURCE_DIR" : "C:/Users/Katarzyna/Desktop/restaurantGame",
-	"DEP_FILE" : "C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/deps",
+	"CMAKE_SOURCE_DIR" : "C:/Users/Katarzyna/Documents/GitHub/restaurantGame",
+	"DEP_FILE" : "C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "restaurantGame_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"C:/Users/Katarzyna/Desktop/restaurantGame/coffeewindow.h",
+			"C:/Users/Katarzyna/Documents/GitHub/restaurantGame/coffeewindow.h",
 			"MU",
 			"EWIEGA46WW/moc_coffeewindow.cpp",
 			null
 		],
 		[
-			"C:/Users/Katarzyna/Desktop/restaurantGame/mainwindow.h",
+			"C:/Users/Katarzyna/Documents/GitHub/restaurantGame/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/include",
-	"MOC_COMPILATION_FILE" : "C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -365,31 +365,31 @@
 		"-c",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/restaurantGame_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/restaurantGame_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.7.0/mingw_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.7.0/mingw_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/restaurantGame_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/restaurantGame_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"C:/Users/Katarzyna/Desktop/restaurantGame/coffeewindow.cpp",
+			"C:/Users/Katarzyna/Documents/GitHub/restaurantGame/coffeewindow.cpp",
 			"MU",
 			null
 		],
-		[ "C:/Users/Katarzyna/Desktop/restaurantGame/main.cpp", "MU", null ],
+		[ "C:/Users/Katarzyna/Documents/GitHub/restaurantGame/main.cpp", "MU", null ],
 		[
-			"C:/Users/Katarzyna/Desktop/restaurantGame/mainwindow.cpp",
+			"C:/Users/Katarzyna/Documents/GitHub/restaurantGame/mainwindow.cpp",
 			"MU",
 			null
 		],
-		[ "C:/Users/Katarzyna/Desktop/restaurantGame/second.cpp", "MU", null ]
+		[ "C:/Users/Katarzyna/Documents/GitHub/restaurantGame/second.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

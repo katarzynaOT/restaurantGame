@@ -1,5 +1,5 @@
-C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Katarzyna/Desktop/restaurantGame/mainwindow.h \
-  C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/moc_predefs.h \
+C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Katarzyna/Documents/GitHub/restaurantGame/mainwindow.h \
+  C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/moc_predefs.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20type_traits.h \

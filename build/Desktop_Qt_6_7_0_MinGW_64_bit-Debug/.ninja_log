@@ -1,8 +1,8 @@
 # ninja log v5
 2	728	7374877633506715	restaurantGame_autogen/timestamp	a1ccb500be801a01
 2	728	7374877633506715	restaurantGame_autogen/mocs_compilation.cpp	a1ccb500be801a01
-2	728	7374877633506715	C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/timestamp	a1ccb500be801a01
-2	728	7374877633506715	C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/mocs_compilation.cpp	a1ccb500be801a01
+2	728	7374877633506715	C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/timestamp	a1ccb500be801a01
+2	728	7374877633506715	C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/mocs_compilation.cpp	a1ccb500be801a01
 748	909	7374877635844874	CMakeFiles/restaurantGame.dir/second.cpp.obj	f6ee0d6ba9ba2576
 730	2957	7374877656342896	CMakeFiles/restaurantGame.dir/restaurantGame_autogen/mocs_compilation.cpp.obj	572784a5b5e4d2d5
 736	3227	7374877659053844	CMakeFiles/restaurantGame.dir/main.cpp.obj	a6ab2863d3d6ed5d
@@ -10,10 +10,22 @@
 3664	3961	7374877666291596	restaurantGame.exe	bff8a371a16026cc
 16	735	7374883002695313	restaurantGame_autogen/timestamp	a1ccb500be801a01
 16	735	7374883002695313	restaurantGame_autogen/mocs_compilation.cpp	a1ccb500be801a01
-16	735	7374883002695313	C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/timestamp	a1ccb500be801a01
-16	735	7374883002695313	C:/Users/Katarzyna/Desktop/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/mocs_compilation.cpp	a1ccb500be801a01
+16	735	7374883002695313	C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/timestamp	a1ccb500be801a01
+16	735	7374883002695313	C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/mocs_compilation.cpp	a1ccb500be801a01
 736	3153	7374883027883261	CMakeFiles/restaurantGame.dir/restaurantGame_autogen/mocs_compilation.cpp.obj	572784a5b5e4d2d5
 740	3210	7374883028407154	CMakeFiles/restaurantGame.dir/coffeewindow.cpp.obj	b80fac1d125de84d
 738	3534	7374883031662245	CMakeFiles/restaurantGame.dir/main.cpp.obj	a6ab2863d3d6ed5d
 746	3979	7374883036125124	CMakeFiles/restaurantGame.dir/mainwindow.cpp.obj	602173ed29734a9e
 3980	4243	7374883038662868	restaurantGame.exe	c6e4d4d7632f41a6
+0	38	0	CMakeFiles/clean.additional	baedbe210acaa455
+39	63	0	clean	577b940aee94fbd7
+7	862	7374959404808150	restaurantGame_autogen/timestamp	6718366fdeeece21
+7	862	7374959404808150	restaurantGame_autogen/mocs_compilation.cpp	6718366fdeeece21
+7	862	7374959404808150	C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/timestamp	6718366fdeeece21
+7	862	7374959404808150	C:/Users/Katarzyna/Documents/GitHub/restaurantGame/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/restaurantGame_autogen/mocs_compilation.cpp	6718366fdeeece21
+875	986	7374959406767003	CMakeFiles/restaurantGame.dir/second.cpp.obj	a32101bd8cc56714
+863	2950	7374959426372587	CMakeFiles/restaurantGame.dir/restaurantGame_autogen/mocs_compilation.cpp.obj	40451593ab3315a
+888	3135	7374959428148065	CMakeFiles/restaurantGame.dir/coffeewindow.cpp.obj	5ff7ca8e3871db0d
+882	3369	7374959430461459	CMakeFiles/restaurantGame.dir/main.cpp.obj	12a3b3cc872ba71b
+869	3688	7374959433588931	CMakeFiles/restaurantGame.dir/mainwindow.cpp.obj	503bdeb6a9d76976
+3689	3956	7374959436314251	restaurantGame.exe	c6e4d4d7632f41a6

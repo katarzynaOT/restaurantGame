@@ -550,17 +550,17 @@ restaurantGame_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/Katarzyna/Desktop/restaurantGame/CMakeLists.txt \
+  C:/Users/Katarzyna/Documents/GitHub/restaurantGame/CMakeLists.txt \
   .qtc/package-manager/auto-setup.cmake \
   CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
   CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
   restaurantGame_autogen/moc_predefs.h \
-  C:/Users/Katarzyna/Desktop/restaurantGame/coffeewindow.cpp \
-  C:/Users/Katarzyna/Desktop/restaurantGame/coffeewindow.h \
-  C:/Users/Katarzyna/Desktop/restaurantGame/coffeewindow.ui \
-  C:/Users/Katarzyna/Desktop/restaurantGame/main.cpp \
-  C:/Users/Katarzyna/Desktop/restaurantGame/mainwindow.cpp \
-  C:/Users/Katarzyna/Desktop/restaurantGame/mainwindow.h \
-  C:/Users/Katarzyna/Desktop/restaurantGame/mainwindow.ui \
-  C:/Users/Katarzyna/Desktop/restaurantGame/second.cpp
+  C:/Users/Katarzyna/Documents/GitHub/restaurantGame/coffeewindow.cpp \
+  C:/Users/Katarzyna/Documents/GitHub/restaurantGame/coffeewindow.h \
+  C:/Users/Katarzyna/Documents/GitHub/restaurantGame/coffeewindow.ui \
+  C:/Users/Katarzyna/Documents/GitHub/restaurantGame/main.cpp \
+  C:/Users/Katarzyna/Documents/GitHub/restaurantGame/mainwindow.cpp \
+  C:/Users/Katarzyna/Documents/GitHub/restaurantGame/mainwindow.h \
+  C:/Users/Katarzyna/Documents/GitHub/restaurantGame/mainwindow.ui \
+  C:/Users/Katarzyna/Documents/GitHub/restaurantGame/second.cpp
