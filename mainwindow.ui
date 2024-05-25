@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>424</width>
-    <height>219</height>
+    <width>812</width>
+    <height>492</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -29,12 +29,22 @@
      <rect>
       <x>220</x>
       <y>10</y>
-      <width>151</width>
-      <height>21</height>
+      <width>211</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="text">
      <string>Coffee Machine Maker 300</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>200</y>
+      <width>256</width>
+      <height>192</height>
+     </rect>
     </property>
    </widget>
   </widget>
@@ -43,8 +53,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>424</width>
-     <height>17</height>
+     <width>812</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
@@ -59,8 +69,8 @@
    <slot>GoToCoffeeWindow()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>376</x>
-     <y>98</y>
+     <x>370</x>
+     <y>51</y>
     </hint>
     <hint type="destinationlabel">
      <x>348</x>

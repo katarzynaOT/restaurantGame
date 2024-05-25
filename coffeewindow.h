@@ -2,6 +2,11 @@
 #define COFFEEWINDOW_H
 
 #include <QDialog>
+#include <QGraphicsScene>
+#include <QGraphicsView>
+#include <QString>
+#include <QDebug>
+#include <QListWidget>
 
 namespace Ui {
 class CoffeeWindow;
@@ -17,6 +22,10 @@ public:
 
 private:
     Ui::CoffeeWindow *ui;
+    QGraphicsScene *Scene1;
+
+private slots:
+    void add_first();
 };
 
 #endif // COFFEEWINDOW_H

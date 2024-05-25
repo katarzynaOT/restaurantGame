@@ -3,6 +3,10 @@
 
 #include <QMainWindow>
 
+#include <QGraphicsScene>
+#include <QString>
+#include <QDebug>
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class MainWindow;
@@ -19,6 +23,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    //QGraphicsScene *Scene;
 
 private slots:
     void GoToCoffeeWindow();

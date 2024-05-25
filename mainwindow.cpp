@@ -16,6 +16,9 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    //Scene = new QGraphicsScene(this);
+    //Scene ->addPixmap(QPixmap(QCoreApplication::applicationDirPath() + "/esspresso1.jpg")); //image path
+    //ui -> graphicsView->setScene(Scene);
 }
 
 MainWindow::~MainWindow()
@@ -34,11 +37,13 @@ void MainWindow::GoToCoffeeWindow()
     //cof = new CoffeeWindow(this);
     //cof->show();
 
+    //the working code:
     CoffeeWindow coffeeWindow;
     coffeeWindow.setModal(true);
     coffeeWindow.exec();
 }
 
+/*
 void WriteToFile(QString fileName)
 {
     QFile mFile(fileName);
@@ -72,3 +77,4 @@ void ReadFromFile(QString fileName)
 
     mFile.close();
 }
+*/
