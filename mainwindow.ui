@@ -27,14 +27,14 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>20</y>
-      <width>80</width>
-      <height>18</height>
+      <x>220</x>
+      <y>10</y>
+      <width>151</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="text">
-     <string>Coffee</string>
+     <string>Coffee Machine Maker 300</string>
     </property>
    </widget>
   </widget>

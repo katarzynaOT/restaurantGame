@@ -9,8 +9,6 @@
 #include <QDebug>
 #include <QTextStream>
 
-QStringList coffeeList = { "Espresso", "Cappucino", "Mocha", "Americano", "ConPanna", "IrishCoffe" };
-
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -18,8 +16,6 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    //showing list of coffees in wigdet
-    ui->listWidget->addItems(coffeeList);
 }
 
 MainWindow::~MainWindow()
@@ -41,14 +37,6 @@ void MainWindow::GoToCoffeeWindow()
     CoffeeWindow coffeeWindow;
     coffeeWindow.setModal(true);
     coffeeWindow.exec();
-}
-
-void MainWindow::Button1_clicked()
-{
-    QMessageBox msgBox;
-    msgBox.setText("Klikniety");
-    msgBox.setWindowTitle("Komunikat");
-    msgBox.exec();
 }
 
 void WriteToFile(QString fileName)
