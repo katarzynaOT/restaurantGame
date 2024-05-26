@@ -39,7 +39,7 @@ void MainWindow::GoToCoffeeWindow()
     coffeeWindow.exec();
 }
 
-void WriteToFile(QString fileName)
+/*void WriteToFile(QString fileName)
 {
     QFile mFile(fileName);
     if (!mFile.open(QFile::Append | QFile::Text))
@@ -71,4 +71,4 @@ void ReadFromFile(QString fileName)
     qDebug() << mText;
 
     mFile.close();
-}
+}*/
