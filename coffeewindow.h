@@ -5,7 +5,9 @@
 #include <QGraphicsScene>
 #include <QString>
 #include <QDebug>
-
+#include <QListWidget>
+#include <QLabel>
+#include <QCheckBox>
 
 namespace Ui {
 class CoffeeWindow;
@@ -18,21 +20,32 @@ class CoffeeWindow : public QDialog
 public:
     explicit CoffeeWindow(QWidget *parent = nullptr);
     ~CoffeeWindow();
-    ///Ui::CoffeeWindow *ui; ///
 
 private:
     Ui::CoffeeWindow *ui;
     QGraphicsScene *Scene1; //displayalbe 2D image
-    //QGraphicsEllipseItem *Ellipse;
-    //QGraphicsRectItem *Rectangle;
+    QLabel* labelPicOfCoffee;
+    QListWidget* coffeeListWidget;
+    QCheckBox* isCustomAvailable;
+
+    QPushButton* addEsspressoButton;
+    QPushButton* addCappucinoButton;
+    QPushButton* addMochaButton;
+    QPushButton* addAmericanoButton;
+    QPushButton* addConPannaButton;
+    QPushButton* addIrishCoffeeButton;
+    QPushButton* customMadeButton;
+    QPushButton* showOrderButton;
+
 
 private slots:
-    void add_1();
-    void add_2();
-    void add_3();
-    void add_4();
-    void add_5();
-    void add_6();
+    void addEsspresso();
+    void addCappucino();
+    void addMocha();
+    void addAmericano();
+    void addConPanna();
+    void addIrishCoffee();
+    void makeCustomMade();
     void showOrder();
 };
 
