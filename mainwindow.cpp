@@ -235,3 +235,4 @@ void MainWindow::refreshIngredientList() {
 void MainWindow::showMessage(const QString& message) {
     QMessageBox::information(this, "Information", message);
 }
+

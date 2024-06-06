@@ -58,3 +58,4 @@ private:
     void showMessage(const QString& message);
 };
 #endif // MAINWINDOW_H
+
