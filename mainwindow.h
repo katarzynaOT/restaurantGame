@@ -8,28 +8,35 @@
 #include <QPushButton>
 #include <unordered_map>
 #include "ingredient.h"
+#include "coffeewindow.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
-class MainWindow : public QMainWindow {
+class MainWindow : public QMainWindow{
     Q_OBJECT
 
 public:
-    explicit MainWindow(QWidget* parent = nullptr);
+    MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
 private slots:
+    void GoToCoffeeWindow();
+
     void addIngredient();
     void editIngredient();
     void removeIngredient();
     void addDish();
-    void removeDish(); 
+    void removeDish();
     void processOrder();
 
 private:
-    Ui::MainWindow* ui;
+    Ui::MainWindow *ui;
+
+    //CoffeeWindow* coffeeWindow;
+
+    QPushButton* coffeeButton;
     QListWidget* ingredientListWidget;
     QComboBox* ingredientNameComboBox;
     QSpinBox* ingredientQuantitySpinBox;
@@ -37,7 +44,7 @@ private:
     QPushButton* editIngredientButton;
     QPushButton* removeIngredientButton;
     QPushButton* addDishButton;
-    QPushButton* removeDishButton; 
+    QPushButton* removeDishButton;
     QPushButton* processOrderButton;
     QListWidget* dishListWidget;
     QComboBox* dishNameComboBox;
@@ -50,5 +57,5 @@ private:
     void refreshDishList();
     void showMessage(const QString& message);
 };
-
 #endif // MAINWINDOW_H
+

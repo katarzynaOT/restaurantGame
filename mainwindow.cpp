@@ -1,14 +1,24 @@
 #include "mainwindow.h"
-#include "ui_mainwindow.h"
-#include <QtWidgets/QMessageBox>
+#include "./ui_mainwindow.h"
+#include "coffeewindow.h"
+
+#include <QStringList>
+#include <QMessageBox>
+#include <QFile>
+#include <QString>
+#include <QDebug>
+#include <QTextStream>
 #include <QVBoxLayout>
 #include <QLabel>
+#include <QDialog>
 
-MainWindow::MainWindow(QWidget* parent)
+
+MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow) {
+    , ui(new Ui::MainWindow){
     ui->setupUi(this);
 
+    coffeeButton = new QPushButton("Coffee Machine", this);
     ingredientListWidget = new QListWidget(this);
     ingredientNameComboBox = new QComboBox(this);
     ingredientQuantitySpinBox = new QSpinBox(this);
@@ -27,17 +37,22 @@ MainWindow::MainWindow(QWidget* parent)
     editIngredientButton = new QPushButton("Edit Ingredient", this);
     removeIngredientButton = new QPushButton("Remove Ingredient", this);
     addDishButton = new QPushButton("Add Dish", this);
-    removeDishButton = new QPushButton("Remove Dish", this); 
+    removeDishButton = new QPushButton("Remove Dish", this);
     processOrderButton = new QPushButton("Process Order", this);
 
+    connect(coffeeButton, &QPushButton::clicked, this, &MainWindow::GoToCoffeeWindow);
     connect(addIngredientButton, &QPushButton::clicked, this, &MainWindow::addIngredient);
     connect(editIngredientButton, &QPushButton::clicked, this, &MainWindow::editIngredient);
     connect(removeIngredientButton, &QPushButton::clicked, this, &MainWindow::removeIngredient);
     connect(addDishButton, &QPushButton::clicked, this, &MainWindow::addDish);
-    connect(removeDishButton, &QPushButton::clicked, this, &MainWindow::removeDish); 
+    connect(removeDishButton, &QPushButton::clicked, this, &MainWindow::removeDish);
     connect(processOrderButton, &QPushButton::clicked, this, &MainWindow::processOrder);
 
     QVBoxLayout* mainLayout = new QVBoxLayout;
+    mainLayout->addWidget(new QLabel("Once you are done with ingredients and dishes, go to coffee machine. There is no coming back!"));
+    mainLayout->addWidget(coffeeButton);
+    mainLayout->addWidget(new QLabel("You can add, edit or remove ingredients. Then you can make dishes."));
+
     mainLayout->addWidget(new QLabel("Ingredients"));
     mainLayout->addWidget(ingredientListWidget);
     mainLayout->addWidget(new QLabel("Ingredient Name"));
@@ -53,19 +68,28 @@ MainWindow::MainWindow(QWidget* parent)
     mainLayout->addWidget(new QLabel("Dish Name"));
     mainLayout->addWidget(dishNameComboBox);
     mainLayout->addWidget(addDishButton);
-    mainLayout->addWidget(removeDishButton); 
+    mainLayout->addWidget(removeDishButton);
     mainLayout->addWidget(processOrderButton);
 
     QWidget* widget = new QWidget();
     widget->setLayout(mainLayout);
     setCentralWidget(widget);
 
+
     initializeDishRequirements();
 }
 
-MainWindow::~MainWindow() {
+MainWindow::~MainWindow(){
     delete ui;
 }
+
+void MainWindow::GoToCoffeeWindow(){
+    this->hide();//hide main window
+    CoffeeWindow coffeeWindow;
+    coffeeWindow.setModal(true);
+    coffeeWindow.exec();
+}
+
 
 void MainWindow::initializeDishRequirements() {
     dishRequirements = {
@@ -76,6 +100,7 @@ void MainWindow::initializeDishRequirements() {
         { "Soup", { { "Chicken", 2 }, { "Onion", 1 }, { "Tomato", 2 }, { "Butter", 1 } } }
     };
 }
+
 
 void MainWindow::addIngredient() {
     QString name = ingredientNameComboBox->currentText();
@@ -151,14 +176,14 @@ void MainWindow::removeDish() {
         return;
     }
 
-    delete selectedItem; 
+    delete selectedItem;
     showMessage("Dish removed from list.");
 }
 
 void MainWindow::processOrder() {
     std::unordered_map<std::string, int> totalRequiredIngredients;
 
-    
+
     for (int i = 0; i < dishListWidget->count(); ++i) {
         QString dishName = dishListWidget->item(i)->text();
         auto it = dishRequirements.find(dishName.toStdString());
@@ -169,7 +194,7 @@ void MainWindow::processOrder() {
         }
     }
 
-    
+
     std::vector<std::string> missingIngredients;
     for (const auto& requirement : totalRequiredIngredients) {
         const std::string& ingredientName = requirement.first;
@@ -189,7 +214,7 @@ void MainWindow::processOrder() {
         return;
     }
 
-    
+
     for (const auto& requirement : totalRequiredIngredients) {
         const std::string& ingredientName = requirement.first;
         int requiredQuantity = requirement.second;
@@ -210,3 +235,4 @@ void MainWindow::refreshIngredientList() {
 void MainWindow::showMessage(const QString& message) {
     QMessageBox::information(this, "Information", message);
 }
+

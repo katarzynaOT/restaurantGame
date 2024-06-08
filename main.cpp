@@ -1,4 +1,4 @@
-#include <QtWidgets/qapplication.h>
+#include <QtWidgets/Qapplication.h>
 #include "mainwindow.h"
 
 int main(int argc, char* argv[]) {
@@ -7,3 +7,4 @@ int main(int argc, char* argv[]) {
     w.show();
     return a.exec();
 }
+
