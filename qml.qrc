@@ -1,5 +1,0 @@
-<RCC>
-    <qresource prefix="/qt/qml/qtquickapplication3">
-        <file>main.qml</file>
-    </qresource>
-</RCC>
