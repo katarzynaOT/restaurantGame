@@ -7,9 +7,6 @@
 #include <QWidget>
 #include <QBoxLayout>
 
-#include <unistd.h> //time delay
-unsigned int microsecond = 1000000;
-
 QStringList coffeeList = { "Espresso", "Cappucino", "Mocha", "Americano", "ConPanna", "IrishCoffee", "Custom Made - non available" };
 
 CoffeeWindow::CoffeeWindow(QWidget *parent)
@@ -94,7 +91,6 @@ void WriteToFile(QString fileName, QString coffeeName)
         msgBox.setText("Wait a couple of seconds for your coffee :)");
         msgBox.setWindowTitle("Order taken");
         msgBox.exec();
-        usleep(3 * microsecond);//sleeps for 3 second
     }
 
     QTextStream out(&mFile);
